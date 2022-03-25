@@ -1,11 +1,10 @@
 # Geometric-deep-learning-for-antibiotic-discovery
-
 The code for this project was written in JupyterNotebook
 
 Installation: https://jupyter.org/install
 
 
-Packages required:
+### Packages required:
 
 Numpy: https://numpy.org/install/
 
