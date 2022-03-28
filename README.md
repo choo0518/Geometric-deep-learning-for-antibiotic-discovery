@@ -1,4 +1,9 @@
 # Geometric-deep-learning-for-antibiotic-discovery
+### About
+
+This resporitory contains all the codes and datasets required to replicate the experiments and analyses in the article "Geometric deep learning for antibiotic discovery".
+
+
 The code for this project was written in JupyterNotebook
 
 Installation: https://jupyter.org/install
@@ -19,4 +24,9 @@ Scikit-Learn: https://scikit-learn.org/stable/install.html
 Chemprop: https://chemprop.readthedocs.io/en/latest/installation.html
 
 RDKit: https://www.rdkit.org/docs/Install.html
+
+### Dataset
+
+
+### Experiments and Analyses 
 
