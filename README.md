@@ -25,8 +25,44 @@ Chemprop: https://chemprop.readthedocs.io/en/latest/installation.html
 
 RDKit: https://www.rdkit.org/docs/Install.html
 
+
 ### Dataset
+##### training_data.csv
+Consisted of 2335 molecules represented as thier SMILES notation. Activity column in this dataset is to indicate presence (1) or absence (0) of the molecular property that inhibit against the growth of E. coli.
+
+##### wordvectors.kv
+It contains the pretrained word embeddings for tokens of the SMILES strings of the molecules in our dataset. This file will be used in the ablation study experiment. 
+
+##### 5_fold_cv_train_test
+A folder contains 5 splits (or folds) of training and test sets for 5 fold cross validation. These 5 folds of data will be used in the model evaluations for the our proposed model and the competing GNN models. 
 
 
-### Experiments and Analyses 
+### Experiments and Analyses
+
+
+#### Comparison in performance with other existing GNN models
+To replicate the experiment for section 4.1 in the articles, we will need 
+##### 1_5_evaluation_ECC.ipynb
+##### 1_5_evaluation_GraphSAGE.ipynb
+##### 1_5_evaluation_Chemprop.ipynb
+##### 1_5_evaluation_GAT.ipynb
+to obtain the performance metrics for repective models.
+
+
+#### Ablation study
+A study in section 4.2 of the article to investigate the contribution of Morgan Fingerprint, molecular graph ebeddings and SMIELS text embeddings towards the molecular property of interest. 
+##### Ablation_study.ipynb
+
+
+#### Effect of sampling proportion of classes
+To investigate the effect of ratio of classes in the dataset on the performance of our proposed model.
+##### Ratio_GAT_evaluation.ipynb
+
+
+#### Effect of feed-forward neural network architecture 
+To investigate the effect of FNN architecture on the performance of our proposed model.
+##### FNN_analysis.ipynb
+
+
+
 
